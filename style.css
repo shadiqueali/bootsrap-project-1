@@ -1,0 +1,52 @@
+.bg {
+    /* The image used */
+    background-image: url("./Images/christian-velitchkov-mXz64B8-3h0-unsplash.jpg");
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+hr {
+    width: 25%;
+    margin: auto;
+}
+@media screen and (min-width:768px){
+    .bg p {
+        font-size: 1.5rem !important;
+    }
+    hr{
+        width: 10%;
+    }
+    
+    
+}
+.description,.service p{
+    margin: auto;
+}
+.card-about{
+    position: relative;
+    margin: auto;
+    top: -50px;
+}
+.bg-1 {
+    /* The image used */
+    background-image: url("./Images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg");
+
+    /* Full height */
+    height: 400px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:768px) {
+    .bg-1{
+        height: 550px;
+    }
+   
+}
